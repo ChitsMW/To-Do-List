@@ -76,3 +76,27 @@ public class ToDoApp {
     }
 }
 
+//
+//import javax.swing.*;
+//
+//public class ToDoApp {
+//    public static void main(String[] args) {
+//        SwingUtilities.invokeLater(new Runnable() {
+//            @Override
+//            public void run() {
+//                JFrame frame = new JFrame("To-Do List");
+//                frame.setSize(400, 300);
+//                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//
+//                // Instantiate the ToDoAppForm
+//                ToDoAppForm form = new ToDoAppForm();
+//
+//                // Set the form's main panel as the content pane of the frame
+//                frame.setContentPane(form.getMainPanel());
+//
+//                frame.pack(); // Adjust the frame size to fit the content
+//                frame.setVisible(true); // Make the frame visible
+//            }
+//        });
+//    }
+//}
